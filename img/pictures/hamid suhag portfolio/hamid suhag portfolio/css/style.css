@@ -1,0 +1,400 @@
+/*Header*/
+.header-wrapper {
+    background-image: url('../img/particle-bg%20(1).png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 600px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.header-overlay {
+    background-color: rgba(32, 32, 32, 0.75);
+    height: 600px;
+}
+
+
+.logo {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.logo-color {
+    color: orangered;
+}
+
+.contant {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.header-contant h1 {
+
+    font-size: 65px;
+    font-family: Open Sans;
+}
+
+.header-contant p {
+    margin-top: 0px;
+    font-size: 21px;
+    margin-bottom: 33px;
+    font-family: Open Sans;
+}
+
+.btn-1 {
+    padding: 7px 48px;
+    margin: 15px;
+    background: orangered;
+    color: white;
+    text-align: center;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.btn-1:hover {
+    text-decoration: none;
+    background: #f55b22;
+    color: white;
+    ;
+}
+
+
+.btn-2 {
+    padding: 7px 35px;
+    margin: 15px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.btn-2:hover {
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
+.bottom_arow > a > img {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    width: 19px;
+    margin-top: 30px;
+    margin-right: 0px;
+
+
+}
+
+.bottom_arow > a > img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/*2ST PART*/
+.second-part-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.thumbnail_design {
+    padding-top: 10px;
+    opacity: 0.8;
+    -webkit-transition: all 1.2s;
+    -moz-transition: all 1.2s;
+    -o-transition: all 1.2s;
+}
+
+.thumbnail_design:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.3);
+}
+
+.thumbnail_design img {
+    width: 100px;
+
+}
+
+
+/*Part 3rd*/
+.three-part-wapper {
+    background-image: url(../img/tea_transparent.png), url(../images/tea.png);
+    background-position: center, center;
+    background-attachment: scroll, scroll;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 52px;
+}
+
+.form-control-1 {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 19px;
+    padding-right: 12px;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn_five {
+    background: #f7600e;
+    border: 1px solid #f7600e;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn_five:hover {
+    background: #e14f00;
+    text-decoration: none;
+    color: white;
+}
+
+/*===========Part-4===========*/
+
+.our-work-wrapper {
+    margin-bottom: 50px;
+}
+
+.headeng {
+    text-align: center;
+    width: 420px;
+    margin-left: 373px;
+    margin-top: 50px;
+}
+
+.heading h2 {
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.orange {
+    color: orangered;
+}
+
+/* <!-- first-item-->*/
+.first-item-wrapper > .row > .pixz_all_opacity > .thumbnail {
+    border: solid 1px #ddd;
+    padding: 3px;
+    width: 308px;
+    border-radius: 3px;
+}
+
+.first-item-wrapper > .row > .pixz_all_opacity > .thumbnail > img {
+    width: 300px;
+    opacity: 0.8;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+}
+
+.first-item-wrapper > .row > .pixz_all_opacity > .thumbnail > img:hover {
+    opacity: 1;
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+/* <!-- second-item-->*/
+.cecond-item-wrapper {
+    margin-top: 40px;
+}
+
+.cecond-item-wrapper > .row > .pixz_all_opacity > .thumbnail {
+    border: solid 1px #ddd;
+    padding: 3px;
+    width: 308px;
+    border-radius: 3px;
+
+}
+
+.cecond-item-wrapper > .row > .pixz_all_opacity > .thumbnail > img {
+    width: 300px;
+    opacity: 0.8;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+}
+
+.cecond-item-wrapper > .row > .pixz_all_opacity > .thumbnail > img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.btn-part-4 {
+    background-color: transparent;
+    color: #3D4248;
+    border: 1px solid #3D4248;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+
+}
+
+.btn-part-4:hover {
+    border: 1px solid #666;
+    background: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+
+/*========== Part Five======*/
+
+.Part-five-wrapper {
+    background-image: url("../img/face_transparent.png"), url("../img/face_main.png");
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: cover;
+    padding-top: 66px;
+    padding-bottom: 55px;
+    margin-top: 60px;
+}
+
+.Part-five-wrapper > .container > .row > .profile-content > img {
+    width: 100px;
+    padding-bottom: 30px;
+}
+
+.Part-five-wrapper > .container > .row > .profile-content > p {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* ========Part six=====*/
+
+.part-six-wrapper {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.part-six-wrapper > .heading h2 {
+    font-size: 49px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.part-six-wrapper > .heading h2 span {
+    color: orangered;
+}
+
+.part-six-wrapper > .heading p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    margin-bottom: 80px;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail {
+    opacity: 0.8;
+    border-radius: 0px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail:hover {
+    opacity: 1;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail > .team {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    width: 235px;
+    border-radius: 0 30px;
+
+
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail > .team:hover {
+    margin-top: -35px;
+    border-right: 5px solid #f7600e;
+    border-bottom: 5px solid #f7600e;
+    border-radius: 10px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail > .social ul {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail > .social ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail > .social ul li a img {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.part-six-wrapper > .our-team-profile > .container > .row > .all_pixz_team > .thumbnail > .social ul li a img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+/*============== part-seven =======*/
+.progressbar_wrapper {
+    margin-bottom: 50px;
+}
