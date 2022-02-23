@@ -53,8 +53,8 @@ font-size: 50px;
 }
 .Mission_in_2022_box_wrapper{
     display: flex;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 .Mission_in_2022_single_box{
     width: 33.33%;
@@ -80,19 +80,76 @@ font-size: 50px;
 /*Develop Without Limits Section*/
 .Develop_Without_Limits_Section_wrapper{
     margin-top: 100px;
+    background-image: url(../img/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 17%;
+    margin-left: 1%;
+    background-position: left;
+
 }
 .Develop_content_wrapper{
     display: flex;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 9%;
+    margin-right: 9%;
+    column-gap: 0px;
+
 }
 .Develop_lift_side_content{
     width: 50%;
+
 }
 .Develop_lift_side_content img{
     width: 70%;
-}
+ }
 
 .Develop_right_side_content{
     width: 50%;
+}
+.Develop_right_side_content h1{
+    font-size: 50px;
+    margin: 0;
+}
+.Develop_right_side_content p{
+    padding-bottom: 15px;
+}
+
+.Develop_right_side_content .btn{
+    background-color: #DF3258;
+    color: #E4F8FC;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/*Global_Community_wrapper*/
+.Global_Community_section_wrapper{
+    margin-top: 100px;
+    display: flex;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+.Global_Community_left_site_content{
+    width: 50%;
+}
+.Global_Community_left_site_content h1{
+font-size: 50px;
+margin: 0;
+}
+.Global_Community_left_site_content p{
+padding-bottom: 10px;
+}
+.Global_Community_left_site_content .btn{
+    border-radius: 10px;
+    background-color: #DF3258;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white
+}
+.Global_Community_right_site_content{
+    width: 50%;
+    margin-left: 5%;
+ 
+ }
+.Global_Community_right_site_content img{
+width: 100%;
 }
