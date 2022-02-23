@@ -76,3 +76,23 @@ font-size: 50px;
     background-color: #ffee0034;
     margin-left: 3%;
 }
+
+/*Develop Without Limits Section*/
+.Develop_Without_Limits_Section_wrapper{
+    margin-top: 100px;
+}
+.Develop_content_wrapper{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.Develop_lift_side_content{
+    width: 50%;
+}
+.Develop_lift_side_content img{
+    width: 70%;
+}
+
+.Develop_right_side_content{
+    width: 50%;
+}
