@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* stay_focused_section_css*/
 .stay_focused_section_wrapper{
     display: flex;
     margin-top: 50px;
@@ -40,4 +41,38 @@ body{
 }
 .stay_focused_right_site_content img{
     width: 80%;
+}
+
+/*Mission_in_2022_css*/
+.Mission_in_2022_wrapper{
+margin-top: 100px;
+}
+.Mission_in_2022_wrapper h1{
+text-align: center;
+font-size: 50px;
+}
+.Mission_in_2022_box_wrapper{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.Mission_in_2022_single_box{
+    width: 33.33%;
+    padding: 2%;
+    border-radius: 10px;
+ 
+}
+.Mission_in_2022_single_box img{
+    width: 30%;
+}
+#Mission_box_color{
+    background-color: #E4F8FC;
+    margin-right: 3%;
+}
+#Vission_box_color{
+    background-color: #df32572f;
+}
+#Goals_box_color{
+    background-color: #ffee0034;
+    margin-left: 3%;
 }
